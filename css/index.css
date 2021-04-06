@@ -1,0 +1,51 @@
+#principalPage{
+    margin: 0;
+    position: absolute;
+    background-image: linear-gradient( to bottom left,#0196fd,#0196fd,#0196fd,#c6cbcd);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 50%;
+    margin-left:25vw;
+    margin-top: 20vw;
+    margin-bottom: 15vw;
+}
+
+#buttons{
+    display: grid;
+    margin-left: 13vw;
+    margin-right: 13vw;
+}
+
+.button{
+    padding: 2%;
+    font-size: 5vh;
+    margin: 5%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -10px 12px 5px rgba(31, 30, 30, 0.5);
+    cursor: pointer;
+}
+
+#socialmedia{
+    color: white;
+    margin-right: 2vw;
+}
+
+#facebook{
+    background-color: #0065bb;
+}
+
+#whatsapp{
+    background-color: #1d9f1a;
+}
+
+#instagram{
+    background-color: #821a9f;
+}
