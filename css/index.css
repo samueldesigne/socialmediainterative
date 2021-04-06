@@ -1,7 +1,7 @@
 #principalPage{
     margin: 0;
     position: absolute;
-    background-image: linear-gradient( to bottom left,#0196fd,#0196fd,#0196fd,#c6cbcd);
+    background-image: linear-gradient( to bottom,#0196fd,#0196fd,#0196fd,#c6cbcd);
     width: 100%;
     height: 100%;
     align-items: center;
@@ -28,7 +28,7 @@
     color: white;
     border: none;
     border-radius: 50px;
-    box-shadow: -5px 5px 5px rgba(31, 30, 30, 0.5);
+    box-shadow: -3px 2px 5px rgba(31, 30, 30, 0.5);
     cursor: pointer;
 }
 
