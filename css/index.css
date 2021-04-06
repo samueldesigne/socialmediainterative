@@ -23,19 +23,19 @@
 
 .button{
     padding: 2%;
-    font-size: 5vh;
     margin: 5%;
     background-color: transparent;
     color: white;
     border: none;
     border-radius: 50px;
-    box-shadow: -10px 12px 5px rgba(31, 30, 30, 0.5);
+    box-shadow: -5px 5px 5px rgba(31, 30, 30, 0.5);
     cursor: pointer;
 }
 
 #socialmedia{
     color: white;
     margin-right: 2vw;
+    font-size: 4vw;
 }
 
 #facebook{
