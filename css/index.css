@@ -1,41 +1,39 @@
 #principalPage{
     margin: 0;
-    position: absolute;
     background-image: linear-gradient( to bottom,#0196fd,#0196fd,#0196fd,#c6cbcd);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     align-items: center;
     justify-content: center;
 }
 
 #logo{
-    width: 50%;
-    margin-left:25vw;
-    margin-top: 20vw;
-    margin-bottom: 15vw;
+    position: relative;
+    width: 25vw;
+    margin: 10vh 0 4vw 35vw;
 }
 
 #buttons{
     display: grid;
-    margin-left: 13vw;
-    margin-right: 13vw;
+    margin: 0 30vw;
 }
 
 .button{
-    padding: 4%;
-    margin: 5%;
+    padding: 2%;
+    font-size: 3vh;
+    margin: 1vw;
     background-color: transparent;
     color: white;
     border: none;
     border-radius: 50px;
-    box-shadow: -3px 2px 5px rgba(31, 30, 30, 0.5);
+    box-shadow: -3px 2px 5px rgba(31, 30, 30, 0.7);
     cursor: pointer;
 }
 
 #socialmedia{
     color: white;
-    margin-right: 2vw;
-    font-size: 4vw;
+    margin-right: 1vw;
+    font-size: 2vw;
 }
 
 #facebook{
@@ -48,4 +46,57 @@
 
 #instagram{
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+@media only screen and (max-width: 1080px){
+    #principalPage{
+        margin: 0;
+        position: absolute;
+        background-image: linear-gradient( to bottom,#0196fd,#0196fd,#0196fd,#838383);
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo{
+        width: 50%;
+        margin: 20vw 0 15vw 25vw;
+    }
+
+    #buttons{
+        display: grid;
+        margin: 0 13vw;
+    }
+
+    .button{
+        padding: 4%;
+        font-size: vw;
+        margin: 5%;
+        background-color: transparent;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        box-shadow: -3px 2px 5px rgba(31, 30, 30, 0.5);
+        cursor: pointer;
+    }
+
+    #socialmedia{
+        color: white;
+        margin-right: 5vw;
+        font-size: 4vw;
+    }
+
+    #facebook{
+        background-color: #0065bb;
+    }
+
+    #whatsapp{
+        background-color: #1d9f1a;
+    }
+
+    #instagram{
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    }
+
 }
