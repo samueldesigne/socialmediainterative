@@ -71,7 +71,6 @@
 
     .button{
         padding: 4%;
-        font-size: vw;
         margin: 5%;
         background-color: transparent;
         color: white;
@@ -84,7 +83,7 @@
     #socialmedia{
         color: white;
         margin-right: 2vw;
-        font-size: 5vw;
+        font-size: 8vw;
     }
 
     #facebook{
