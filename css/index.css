@@ -1,25 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
 #principalPage{
     margin: 0;
     background-image: linear-gradient( to bottom,#0196fd,#0196fd,#0196fd,#c6cbcd);
     width: 100vw;
     height: 100vh;
-    align-items: center;
-    justify-content: center;
+}
+
+#logomarca{
+    margin: 0;
+    text-align: center;
 }
 
 #logo{
+    margin: 5vw 0;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 25vw;
-    margin: 10vh 0 4vw 35vw;
+    width: 23vw;
 }
 
 #buttons{
     display: grid;
-    margin: 0 30vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .button{
-    padding: 2%;
+    z-index: 1;
+    width: 30vw;
+    padding: 1vh;
     font-size: 3vh;
     margin: 1vw;
     background-color: transparent;
@@ -30,10 +43,16 @@
     cursor: pointer;
 }
 
+.button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 #socialmedia{
     color: white;
     margin-right: 1vw;
     font-size: 2vw;
+    text-decoration: none;
 }
 
 #facebook{
@@ -48,7 +67,7 @@
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 720px){
     #principalPage{
         margin: 0;
         position: absolute;
@@ -59,19 +78,26 @@
         justify-content: center;
     }
 
+    #logomarca{
+        text-align: center;
+        margin: 15vw 0;
+    }
+
     #logo{
         width: 50%;
-        margin: 20vw 0 15vw 25vw;
     }
 
     #buttons{
         display: grid;
-        margin: 0 13vw;
+        justify-content: center;
+        align-items: center;
     }
 
     .button{
-        padding: 4%;
-        margin: 5%;
+        z-index: 1;
+        width: 60vw;
+        padding: 2%;
+        margin: 3vw;
         background-color: transparent;
         color: white;
         border: none;
@@ -83,7 +109,7 @@
     #socialmedia{
         color: white;
         margin-right: 2vw;
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     #facebook{
